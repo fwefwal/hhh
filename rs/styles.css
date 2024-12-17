@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 20px;
+}
+
+.product-list, .gear-list {
+    display: grid;
+    gap: 20px;
+}
+
+.product-card, .gear-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-card img, .gear-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .product-list, .gear-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1224px) {
+    .product-list, .gear-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

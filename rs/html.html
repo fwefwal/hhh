@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Music Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 20px;
+}
+
+.product-list, .gear-list {
+    display: grid;
+    gap: 20px;
+}
+
+.product-card, .gear-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-card img, .gear-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .product-list, .gear-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1224px) {
+    .product-list, .gear-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+</style> -->
+<body>
+    <section class="new-products">
+        <h2>New Products</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="guitar1.jpg" alt="Guitar">
+                <p>Electric Guitar</p>
+                <span>$1,299</span>
+            </div>
+            <div class="product-card">
+                <img src="guitar2.jpg" alt="Guitar">
+                <p>Acoustic Guitar</p>
+                <span>$899</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-finds">
+        <h2>Popular Finds</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="cable.jpg" alt="Cable">
+                <p>Guitar Cable</p>
+                <span>$29</span>
+            </div>
+            <div class="product-card">
+                <img src="pedal.jpg" alt="Pedal">
+                <p>Distortion Pedal</p>
+                <span>$199</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="gear-heads">
+        <h2>Gear Heads</h2>
+        <div class="gear-list">
+            <div class="gear-item">
+                <img src="gear1.jpg" alt="Gear">
+                <p>Article 1</p>
+            </div>
+            <div class="gear-item">
+                <img src="gear2.jpg" alt="Gear">
+                <p>Article 2</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2024 CentralMusic</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
